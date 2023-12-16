@@ -23,7 +23,7 @@ const [activeJobType, setActiveJobType] = useState('Full-Time')
              <TextInput 
              style={styles.searchInput} 
              value={searchTerm}
-             onChange={(text) => setSearchTerm(text)}
+             onChangeText={(text) => setSearchTerm(text)}
              placeholder='What are you looking for?'
              />
           </View>
